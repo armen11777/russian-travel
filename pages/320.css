@@ -1,0 +1,113 @@
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 16px auto 0 auto;
+  }
+
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    background-size: 142px auto;
+  }
+
+  .header__lang-link_lang_ru {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+  }
+
+  .header__lang-link_lang_en {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+  }
+  .lead {
+    max-width: 288px;
+  }
+  .lead__title {
+    font-size: 2.5rem;
+    line-height: 110%;
+    margin: 0 auto 0 auto;
+  }
+  
+  .lead_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    margin-top: 16px;
+  }
+  .lead__image {
+    margin: 40px auto 0 auto;
+  }
+
+  .intro_title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 64px 16px 0 16px;
+  }
+
+  .intro__text {
+    line-height: 163%;
+    margin: 40px auto 0 auto;
+    max-width: 288px;
+  
+  }
+
+
+  .intro__list {
+    color: #FFFFFF;
+    white-space: pre-line;
+    margin: 34px auto 0 auto;
+  }
+  
+  .photo-grid {
+    gap: 12px;
+    margin: 64px auto 0 auto;
+  }
+  
+  .photo-grid__item {
+    width: 288px;
+  }
+
+  .places {
+    margin: 0;
+    row-gap: 0;
+  }
+  
+  .place {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-top: 50px;
+  }
+
+  .place:first-child {
+   margin-top: 64px;
+  }
+  
+  .place__title {
+    font-size: 32px;
+    line-height: 109%;
+    margin: 0 auto;
+  }
+
+  .place__website {
+    align-self: flex-start;
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+
+  .place__url-heading {
+  margin: 0 0 12px 0;
+  }
+  
+  .place__paragraph {
+    margin: 0 0 25px 0;
+  }
+
+  .place__paragraph:last-child {
+    margin: 0;
+  }
+
+
+} 
