@@ -1,0 +1,11 @@
+.cover__overlay {
+  grid-area: header;
+  background: #2A2C2F;
+  opacity: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
+}
