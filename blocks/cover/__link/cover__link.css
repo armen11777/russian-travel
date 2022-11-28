@@ -1,0 +1,38 @@
+.cover__link {
+  grid-area: header;
+  max-width: 560px;
+  text-decoration: none;
+  margin: 245px auto auto auto;
+  z-index: 3;
+}
+
+.cover__link:hover ~ .cover__overlay {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    margin-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    margin-top: 115px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__link {
+    margin-top: 15%;
+    font-size: 54px;
+    line-height: 58px; 
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    margin-top: 33px;
+  }
+}

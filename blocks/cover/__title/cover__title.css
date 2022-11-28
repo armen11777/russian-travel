@@ -1,7 +1,5 @@
 .cover__title {
-  grid-area: header;
   max-width: 560px;
-  height: 152px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -9,30 +7,12 @@
   line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-  margin: 245px auto auto auto;
   z-index: 3;
-}
-
-.cover__title:hover ~ .cover__overlay {
-  opacity: 0.8;
-}
-
-
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin: 195px auto auto auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    margin: 115px auto auto auto;
-  }
+  margin: 0;
 }
 
 @media screen and (max-width: 700px) {
   .cover__title {
-    margin: 15% auto auto auto;
     font-size: 54px;
     line-height: 58px; 
   }
@@ -47,9 +27,10 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    margin: 33px auto auto auto;
     font-size: 32px;
     line-height: 35px;
   }
 }
+
+
 
