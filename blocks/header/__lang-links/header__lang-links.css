@@ -3,4 +3,5 @@
   list-style: none;
   gap: 18px;
   justify-self: end;
+  padding-left: 0;
 }

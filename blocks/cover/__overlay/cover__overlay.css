@@ -2,10 +2,11 @@
   grid-area: header;
   background: #2A2C2F;
   opacity: 0;
-  z-index: 5;
+  z-index: 2;
   width: 100%;
+  opacity: 0.3;
 }
 
 .cover__overlay:hover {
-  opacity: 0.3;
+  opacity: 0.8;
 }

@@ -10,8 +10,13 @@
   text-align: center;
   color: #FFFFFF;
   margin: 245px auto auto auto;
-  z-index: 2;
+  z-index: 3;
 }
+
+.cover__title:hover ~ .cover__overlay {
+  opacity: 0.8;
+}
+
 
 @media screen and (max-width: 1024px) {
   .cover__title {
@@ -28,15 +33,15 @@
 @media screen and (max-width: 700px) {
   .cover__title {
     margin: 15% auto auto auto;
-    font-size: 50px;
-    line-height: 54px; 
+    font-size: 54px;
+    line-height: 58px; 
   }
 }
 
 @media screen and (max-width: 550px) {
   .cover__title {
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 41px;
+    line-height: 45px;
   }
 }
 

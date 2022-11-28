@@ -9,7 +9,11 @@
   text-align: center;
   color: #FFFFFF;
   margin: 429px auto auto auto;
-  z-index: 2;
+  z-index: 3;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
