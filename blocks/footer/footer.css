@@ -1,8 +1,7 @@
 .footer {
   margin: 92px 48px 24px 48px;
-  display: grid;
-  grid-template-columns: repeat(5, min-content) 1fr;
-  column-gap: 18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -11,12 +10,10 @@
   }
 }
 
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 400px) {
   .footer {
-    display: flex;
     flex-direction: column;
-    gap: 32px;
-    margin: 64px 0 24px 24px;
+    margin: 64px 0 24px 16px;
   }
 }
 

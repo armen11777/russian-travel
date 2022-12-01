@@ -1,6 +1,5 @@
 .place__url-heading {
-  max-width: 456px;
-  height: 12px;
+  max-width: 100%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,4 +7,9 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
+  margin: 0;
+}
+
+.place__url-heading:first-child {
+  margin-bottom: 12px;
 }

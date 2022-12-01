@@ -1,5 +1,4 @@
 .cover__background {
-  grid-area: header;
+  grid-area: body;
   max-width: 100%;
-  max-height: 100%;
 }

@@ -6,33 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="./vendor/font/fonts.css">
     <title>Путешествие по Росиии</title>
 </head>
-<body>
+<body class="body-style">
   <div class="page">
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__lang-links">
-        <li><a class="header__lang-link" href="#">Ru</a></li>
+        <li><a class="header__lang-link header__lang-link_link_active"  href="#">Ru</a></li>
         <li><a class="header__lang-link" href="#">En</a></li>
       </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle"> Настоящая страна не в выпусках новостей, а здесь</p>
+        <p class="lead__subtitle"> Настоящая страна не в выпусках новостей, а здесь.</p>
         <img class="lead__image" src="./images/lead-polka.jpg" alt="Девушка спит в вагоне поезда">
         <p class="lead__caption">ВАША ПОЛКА ВЕРХНЯЯ</p>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели</h2>
+        <h2 class="intro__title">Чего мы там не видели?</h2>
         <blockquote class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</blockquote>
-        <p class="intro__list">Часовых поясов 11
-          Объектов природного наследия ЮНЕСКО 12
-          Объектов культурного наследия ЮНЕСКО 16
-          Природных заповедников 105
-          Аэропортов 241</p>
+        <ul class="intro__list">
+          <li>Часовых поясов 11</li>
+          <li>Объектов природного наследия ЮНЕСКО 12</li>
+          <li>Объектов культурного наследия ЮНЕСКО 16</li>
+          <li>Природных заповедников 105</li>
+          <li>Аэропортов 241</li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img class="photo-grid__item" src="./images/photo__grid/__item.png" alt="Вид из окна движущегося поезда">
@@ -45,12 +47,14 @@
         <img class="photo-grid__item" src="./images/photo__grid/__item(7).png" alt="Знак пешелдный переход">
         <img class="photo-grid__item" src="./images/photo__grid/__item(8).png" alt="Пейзаж гор">
         <img class="photo-grid__item" src="./images/photo__grid/__item(9).png" alt="Гора">
-        <img class="photo-grid__item" src="./images/photo__grid/__item(10).png" alt="Вид на морское побережье зимойф">
+        <img class="photo-grid__item" src="./images/photo__grid/__item(10).png" alt="Вид на морское побережье зимой">
         <img class="photo-grid__item" src="./images/photo__grid/__item(11).png" alt="Горыные вершины в облаках">
       </section>
       <section class="places">
         <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h3 class="place__title">Куршская 
+            коса
+          </h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
@@ -112,18 +116,23 @@
         </div>
       </section>
       <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"><h3 class="cover__title">До Байкала «на собаках»</h3></a>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        <div class="cover__overlay"></div>
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
         <img class="cover__background" src="./images/cover-trains.jpg" alt="Стоянка для грузовых составов">
       </section>
     </main>
     <footer class="footer">
-      <a href="#" class="footer__link">Карты</a>
-      <a href="#" class="footer__link">Погода</a>
-      <a href="#" class="footer__link">Расписание</a>
-      <a href="#" class="footer__link">Календарь</a>
-      <a href="#" class="footer__link">Путешествия</a>
+      <nav class="footer__column">
+        <ul class="footer__links">
+          <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">© 2020. Впишите своё имя</p>
     </footer>
   </div>

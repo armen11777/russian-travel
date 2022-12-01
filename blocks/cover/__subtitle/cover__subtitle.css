@@ -8,44 +8,20 @@
   line-height: 22px;
   text-align: center;
   color: #FFFFFF;
-  margin: 429px auto auto auto;
   z-index: 3;
-}
-
-.cover__subtitle:hover ~ .cover__overlay {
-  opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    margin: 379px auto auto auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    margin: 299px auto auto auto;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .cover__subtitle {
-    margin: 40% auto auto auto;
-  }
+  margin: 32px 0 0 0;
 }
 
 @media screen and (max-width: 550px) {
   .cover__subtitle {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
-    margin: 45% auto auto auto;
+    margin: 16px 16px 0 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    margin: 119px auto auto auto;
-    font-size: 14px;
-    line-height: 16px;
+    
   }
 }

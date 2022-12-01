@@ -1,5 +1,5 @@
 .places {
-  max-width: 1080px;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   row-gap: 80px;
@@ -8,14 +8,19 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+    margin: 92px 48px 0 48px;
+  }
+} 
+
+@media screen and (max-width: 900px) {
+  .places {
+    margin: 88px 24px 0 24px;
   }
 } 
 
 @media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
-    margin: 88px auto 0 auto;
     row-gap: 73px;
   }
 } 
@@ -23,7 +28,7 @@
 @media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
-    margin: 64px auto 0 auto;
+    margin: 64px 0 0 0;
     row-gap: 50px;
   }
 } 

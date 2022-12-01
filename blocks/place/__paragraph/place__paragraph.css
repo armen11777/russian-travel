@@ -3,14 +3,35 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 29px;
   color: #FFFFFF;
   margin: 0 0 26px 0;
+  max-width: 100%;
+}
+
+.place__paragraph:last-child {
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin: 0 auto 27px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 auto 25px auto;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    max-width: 288px;
-    margin: 0 auto 26px auto;
+    margin: 0 16px 25px 16px;
+  }
+  .place__paragraph:last-child {
+    margin: 0 16px 0 16px;
   }
 }
