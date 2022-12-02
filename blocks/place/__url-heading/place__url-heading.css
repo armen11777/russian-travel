@@ -1,6 +1,5 @@
 .place__url-heading {
   max-width: 100%;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -8,6 +7,7 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .place__url-heading:first-child {
